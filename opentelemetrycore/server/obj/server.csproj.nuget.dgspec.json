@@ -1,0 +1,79 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\WL-DATA\\projects\\BFL\\tryarea\\opentelemetrycore\\server\\server.csproj": {}
+  },
+  "projects": {
+    "D:\\WL-DATA\\projects\\BFL\\tryarea\\opentelemetrycore\\server\\server.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\WL-DATA\\projects\\BFL\\tryarea\\opentelemetrycore\\server\\server.csproj",
+        "projectName": "server",
+        "projectPath": "D:\\WL-DATA\\projects\\BFL\\tryarea\\opentelemetrycore\\server\\server.csproj",
+        "packagesPath": "C:\\Users\\sachin.sunkle\\.nuget\\packages\\",
+        "outputPath": "D:\\WL-DATA\\projects\\BFL\\tryarea\\opentelemetrycore\\server\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\sachin.sunkle\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "OpenTelemetry.Exporter.Console": {
+              "target": "Package",
+              "version": "[0.7.0-beta.1, )"
+            },
+            "OpenTelemetry.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[0.7.0-beta.1, )"
+            },
+            "OpenTelemetry.Instrumentation.AspNetCore": {
+              "target": "Package",
+              "version": "[0.7.0-beta.1, )"
+            },
+            "OpenTelemetry.Instrumentation.Http": {
+              "target": "Package",
+              "version": "[0.7.0-beta.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "d:\\wl-data\\tools\\dotnetcore\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
